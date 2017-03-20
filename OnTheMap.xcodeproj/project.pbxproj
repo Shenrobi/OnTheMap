@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E43142F31E7C520C0078ADC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43142F21E7C520C0078ADC3 /* AppDelegate.swift */; };
-		E43142F51E7C520C0078ADC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43142F41E7C520C0078ADC3 /* ViewController.swift */; };
-		E43142F81E7C520C0078ADC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43142F61E7C520C0078ADC3 /* Main.storyboard */; };
+		04B446273C44125EE73DE1B6 /* Pods_OnTheMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFCD137481BF7DBFF601364 /* Pods_OnTheMap.framework */; };
 		E43142FA1E7C520C0078ADC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43142F91E7C520C0078ADC3 /* Assets.xcassets */; };
 		E43142FD1E7C520C0078ADC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43142FB1E7C520C0078ADC3 /* LaunchScreen.storyboard */; };
 		E43143081E7C520D0078ADC3 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143071E7C520D0078ADC3 /* OnTheMapTests.swift */; };
 		E43143131E7C520D0078ADC3 /* OnTheMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143121E7C520D0078ADC3 /* OnTheMapUITests.swift */; };
+		E43143211E7C52F30078ADC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43143201E7C52F30078ADC3 /* Main.storyboard */; };
+		E43143261E7C5B4E0078ADC3 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143221E7C5B4E0078ADC3 /* SessionManager.swift */; };
+		E43143271E7C5B4E0078ADC3 /* Udacity_OTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143231E7C5B4E0078ADC3 /* Udacity_OTM.swift */; };
+		E43143281E7C5B4E0078ADC3 /* Parse_OTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143241E7C5B4E0078ADC3 /* Parse_OTM.swift */; };
+		E43143291E7C5B4E0078ADC3 /* Facebook_OTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143251E7C5B4E0078ADC3 /* Facebook_OTM.swift */; };
+		E431432E1E7C5B600078ADC3 /* DataSource_OTM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431432A1E7C5B600078ADC3 /* DataSource_OTM.swift */; };
+		E431432F1E7C5B600078ADC3 /* StudentLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431432B1E7C5B600078ADC3 /* StudentLocationModel.swift */; };
+		E43143301E7C5B600078ADC3 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431432C1E7C5B600078ADC3 /* LocationModel.swift */; };
+		E43143311E7C5B600078ADC3 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431432D1E7C5B600078ADC3 /* StudentModel.swift */; };
+		E43143331E7C5B690078ADC3 /* StudentLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143321E7C5B690078ADC3 /* StudentLocationCell.swift */; };
+		E43143391E7C5B790078ADC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143341E7C5B790078ADC3 /* LoginViewController.swift */; };
+		E431433A1E7C5B790078ADC3 /* OnTheMapTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143351E7C5B790078ADC3 /* OnTheMapTabBarController.swift */; };
+		E431433B1E7C5B790078ADC3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143361E7C5B790078ADC3 /* MapViewController.swift */; };
+		E431433C1E7C5B790078ADC3 /* OTMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143371E7C5B790078ADC3 /* OTMTableViewController.swift */; };
+		E431433D1E7C5B790078ADC3 /* PostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143381E7C5B790078ADC3 /* PostingViewController.swift */; };
+		E43143401E7C5B8F0078ADC3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431433F1E7C5B8F0078ADC3 /* UIColorExtension.swift */; };
+		E43143441E7C5BEB0078ADC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143431E7C5BEB0078ADC3 /* AppDelegate.swift */; };
+		E43143461E7C5C110078ADC3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43143451E7C5C110078ADC3 /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +50,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C475B517E2CD706BDC129D2 /* Pods-OnTheMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnTheMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnTheMap/Pods-OnTheMap.release.xcconfig"; sourceTree = "<group>"; };
+		2DFCD137481BF7DBFF601364 /* Pods_OnTheMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnTheMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F760435AEED665CC898A687 /* Pods-OnTheMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnTheMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnTheMap/Pods-OnTheMap.debug.xcconfig"; sourceTree = "<group>"; };
 		E43142EF1E7C520C0078ADC3 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E43142F21E7C520C0078ADC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E43142F41E7C520C0078ADC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E43142F71E7C520C0078ADC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E43142F91E7C520C0078ADC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43142FC1E7C520C0078ADC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E43142FE1E7C520C0078ADC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E43143031E7C520D0078ADC3 /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43143071E7C520D0078ADC3 /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
 		E43143091E7C520D0078ADC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E431430E1E7C520D0078ADC3 /* OnTheMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43143121E7C520D0078ADC3 /* OnTheMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapUITests.swift; sourceTree = "<group>"; };
 		E43143141E7C520D0078ADC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43143201E7C52F30078ADC3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E43143221E7C5B4E0078ADC3 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		E43143231E7C5B4E0078ADC3 /* Udacity_OTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Udacity_OTM.swift; sourceTree = "<group>"; };
+		E43143241E7C5B4E0078ADC3 /* Parse_OTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parse_OTM.swift; sourceTree = "<group>"; };
+		E43143251E7C5B4E0078ADC3 /* Facebook_OTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facebook_OTM.swift; sourceTree = "<group>"; };
+		E431432A1E7C5B600078ADC3 /* DataSource_OTM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource_OTM.swift; sourceTree = "<group>"; };
+		E431432B1E7C5B600078ADC3 /* StudentLocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLocationModel.swift; sourceTree = "<group>"; };
+		E431432C1E7C5B600078ADC3 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		E431432D1E7C5B600078ADC3 /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		E43143321E7C5B690078ADC3 /* StudentLocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLocationCell.swift; sourceTree = "<group>"; };
+		E43143341E7C5B790078ADC3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E43143351E7C5B790078ADC3 /* OnTheMapTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnTheMapTabBarController.swift; sourceTree = "<group>"; };
+		E43143361E7C5B790078ADC3 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E43143371E7C5B790078ADC3 /* OTMTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTMTableViewController.swift; sourceTree = "<group>"; };
+		E43143381E7C5B790078ADC3 /* PostingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostingViewController.swift; sourceTree = "<group>"; };
+		E431433E1E7C5B8F0078ADC3 /* OnTheMap.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OnTheMap.entitlements; sourceTree = "<group>"; };
+		E431433F1E7C5B8F0078ADC3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E43143411E7C5BA90078ADC3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43143431E7C5BEB0078ADC3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E43143451E7C5C110078ADC3 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B446273C44125EE73DE1B6 /* Pods_OnTheMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1804F6F9BAE1F94D2BC9403 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DFCD137481BF7DBFF601364 /* Pods_OnTheMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E43142E61E7C520B0078ADC3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				E43143061E7C520D0078ADC3 /* OnTheMapTests */,
 				E43143111E7C520D0078ADC3 /* OnTheMapUITests */,
 				E43142F01E7C520C0078ADC3 /* Products */,
+				F330608903631C0BE2CC96C6 /* Pods */,
+				D1804F6F9BAE1F94D2BC9403 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,17 @@
 		E43142F11E7C520C0078ADC3 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
-				E43142F21E7C520C0078ADC3 /* AppDelegate.swift */,
-				E43142F41E7C520C0078ADC3 /* ViewController.swift */,
-				E43142F61E7C520C0078ADC3 /* Main.storyboard */,
+				E431434B1E7C5CDE0078ADC3 /* Other */,
+				E431434A1E7C5C940078ADC3 /* NetworkManager */,
+				E43143491E7C5C560078ADC3 /* Model */,
+				E43143481E7C5C500078ADC3 /* View */,
+				E43143471E7C5C470078ADC3 /* Controller */,
+				E43143201E7C52F30078ADC3 /* Main.storyboard */,
 				E43142F91E7C520C0078ADC3 /* Assets.xcassets */,
 				E43142FB1E7C520C0078ADC3 /* LaunchScreen.storyboard */,
-				E43142FE1E7C520C0078ADC3 /* Info.plist */,
+				E43143411E7C5BA90078ADC3 /* Info.plist */,
+				E431433E1E7C5B8F0078ADC3 /* OnTheMap.entitlements */,
+				E431433F1E7C5B8F0078ADC3 /* UIColorExtension.swift */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -125,6 +176,66 @@
 			path = OnTheMapUITests;
 			sourceTree = "<group>";
 		};
+		E43143471E7C5C470078ADC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E43143341E7C5B790078ADC3 /* LoginViewController.swift */,
+				E43143351E7C5B790078ADC3 /* OnTheMapTabBarController.swift */,
+				E43143361E7C5B790078ADC3 /* MapViewController.swift */,
+				E43143371E7C5B790078ADC3 /* OTMTableViewController.swift */,
+				E43143381E7C5B790078ADC3 /* PostingViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E43143481E7C5C500078ADC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E43143321E7C5B690078ADC3 /* StudentLocationCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E43143491E7C5C560078ADC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E431432A1E7C5B600078ADC3 /* DataSource_OTM.swift */,
+				E431432B1E7C5B600078ADC3 /* StudentLocationModel.swift */,
+				E431432C1E7C5B600078ADC3 /* LocationModel.swift */,
+				E431432D1E7C5B600078ADC3 /* StudentModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E431434A1E7C5C940078ADC3 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				E43143221E7C5B4E0078ADC3 /* SessionManager.swift */,
+				E43143231E7C5B4E0078ADC3 /* Udacity_OTM.swift */,
+				E43143241E7C5B4E0078ADC3 /* Parse_OTM.swift */,
+				E43143251E7C5B4E0078ADC3 /* Facebook_OTM.swift */,
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+		E431434B1E7C5CDE0078ADC3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E43143431E7C5BEB0078ADC3 /* AppDelegate.swift */,
+				E43143451E7C5C110078ADC3 /* AppConstants.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F330608903631C0BE2CC96C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F760435AEED665CC898A687 /* Pods-OnTheMap.debug.xcconfig */,
+				2C475B517E2CD706BDC129D2 /* Pods-OnTheMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E43143171E7C520D0078ADC3 /* Build configuration list for PBXNativeTarget "OnTheMap" */;
 			buildPhases = (
+				39FBED3EEDFFF5003E92267B /* [CP] Check Pods Manifest.lock */,
 				E43142EB1E7C520C0078ADC3 /* Sources */,
 				E43142EC1E7C520C0078ADC3 /* Frameworks */,
 				E43142ED1E7C520C0078ADC3 /* Resources */,
+				317B10BB515938827ED866A8 /* [CP] Embed Pods Frameworks */,
+				E94829E1E6664424E13D6A8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +349,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43143211E7C52F30078ADC3 /* Main.storyboard in Resources */,
 				E43142FD1E7C520C0078ADC3 /* LaunchScreen.storyboard in Resources */,
 				E43142FA1E7C520C0078ADC3 /* Assets.xcassets in Resources */,
-				E43142F81E7C520C0078ADC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +371,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		317B10BB515938827ED866A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnTheMap/Pods-OnTheMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39FBED3EEDFFF5003E92267B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E94829E1E6664424E13D6A8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnTheMap/Pods-OnTheMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E43142EB1E7C520C0078ADC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E43142F51E7C520C0078ADC3 /* ViewController.swift in Sources */,
-				E43142F31E7C520C0078ADC3 /* AppDelegate.swift in Sources */,
+				E43143301E7C5B600078ADC3 /* LocationModel.swift in Sources */,
+				E43143461E7C5C110078ADC3 /* AppConstants.swift in Sources */,
+				E431433A1E7C5B790078ADC3 /* OnTheMapTabBarController.swift in Sources */,
+				E431433C1E7C5B790078ADC3 /* OTMTableViewController.swift in Sources */,
+				E43143311E7C5B600078ADC3 /* StudentModel.swift in Sources */,
+				E43143331E7C5B690078ADC3 /* StudentLocationCell.swift in Sources */,
+				E43143281E7C5B4E0078ADC3 /* Parse_OTM.swift in Sources */,
+				E43143271E7C5B4E0078ADC3 /* Udacity_OTM.swift in Sources */,
+				E431433B1E7C5B790078ADC3 /* MapViewController.swift in Sources */,
+				E43143441E7C5BEB0078ADC3 /* AppDelegate.swift in Sources */,
+				E431432F1E7C5B600078ADC3 /* StudentLocationModel.swift in Sources */,
+				E43143291E7C5B4E0078ADC3 /* Facebook_OTM.swift in Sources */,
+				E43143261E7C5B4E0078ADC3 /* SessionManager.swift in Sources */,
+				E43143401E7C5B8F0078ADC3 /* UIColorExtension.swift in Sources */,
+				E431432E1E7C5B600078ADC3 /* DataSource_OTM.swift in Sources */,
+				E43143391E7C5B790078ADC3 /* LoginViewController.swift in Sources */,
+				E431433D1E7C5B790078ADC3 /* PostingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E43142F61E7C520C0078ADC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E43142F71E7C520C0078ADC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E43142FB1E7C520C0078ADC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +580,7 @@
 		};
 		E43143181E7C520D0078ADC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F760435AEED665CC898A687 /* Pods-OnTheMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P48YRNL43;
@@ -424,6 +594,7 @@
 		};
 		E43143191E7C520D0078ADC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C475B517E2CD706BDC129D2 /* Pods-OnTheMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P48YRNL43;
@@ -512,6 +683,7 @@
 				E43143191E7C520D0078ADC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E431431A1E7C520D0078ADC3 /* Build configuration list for PBXNativeTarget "OnTheMapTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +692,7 @@
 				E431431C1E7C520D0078ADC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E431431D1E7C520D0078ADC3 /* Build configuration list for PBXNativeTarget "OnTheMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +701,7 @@
 				E431431F1E7C520D0078ADC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
